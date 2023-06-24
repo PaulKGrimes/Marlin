@@ -67,8 +67,6 @@ namespace Language_sk {
   LSTR MSG_LCD_SOFT_ENDSTOPS              = _UxGT("Soft. endstopy");
   LSTR MSG_MAIN_MENU                      = _UxGT("Hlavná ponuka");
   LSTR MSG_ADVANCED_SETTINGS              = _UxGT("Pokročilé nastav.");
-  LSTR MSG_TOOLBAR_SETUP                  = _UxGT("Panel nástrojov");
-  LSTR MSG_OPTION_DISABLED                = _UxGT("Možnosť vypnutá");
   LSTR MSG_CONFIGURATION                  = _UxGT("Konfigurácia");
   LSTR MSG_RUN_AUTO_FILES                 = _UxGT("Auto-štart");
   LSTR MSG_DISABLE_STEPPERS               = _UxGT("Uvolniť motory");
@@ -84,11 +82,11 @@ namespace Language_sk {
   LSTR MSG_FILAMENT_SET                   = _UxGT("Nastav. filamentu");
   LSTR MSG_FILAMENT_MAN                   = _UxGT("Správa filamentu");
   LSTR MSG_MANUAL_LEVELING                = _UxGT("Ručné rovnanie");
-  LSTR MSG_LEVBED_FL                      = _UxGT("Ľavý predný");
-  LSTR MSG_LEVBED_FR                      = _UxGT("Pravý predný");
-  LSTR MSG_LEVBED_C                       = _UxGT("Stred");
-  LSTR MSG_LEVBED_BL                      = _UxGT("Ľavý zadný");
-  LSTR MSG_LEVBED_BR                      = _UxGT("Pravý zadný");
+  LSTR MSG_TRAM_FL                        = _UxGT("Ľavý predný");
+  LSTR MSG_TRAM_FR                        = _UxGT("Pravý predný");
+  LSTR MSG_TRAM_C                         = _UxGT("Stred");
+  LSTR MSG_TRAM_BL                        = _UxGT("Ľavý zadný");
+  LSTR MSG_TRAM_BR                        = _UxGT("Pravý zadný");
   LSTR MSG_MANUAL_MESH                    = _UxGT("Ručná mriežka");
   LSTR MSG_AUTO_MESH                      = _UxGT("Automat. mriežka");
   LSTR MSG_AUTO_Z_ALIGN                   = _UxGT("Auto-zarovn. Z");

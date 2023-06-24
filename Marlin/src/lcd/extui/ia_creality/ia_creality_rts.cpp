@@ -674,7 +674,7 @@ void RTS::handleData() {
     case DisplayStandbyBrightness: Checkkey = DisplayStandbyBrightness; break;
     case DisplayStandbySeconds:    Checkkey = DisplayStandbySeconds; break;
     default:
-      if (WITHIN(recdat.addr, AutolevelVal, 4400)) // (int16_t(AutolevelVal) + GRID_MAX_POINTS * 2) = 4400 with 5x5 mesh
+      if (WITHIN(recdat.addr, AutolevelVal, AutolevelVal + 2 * (5 * 5 - 1))) // Assuming 5x5 mesh or smaller
         Checkkey = AutolevelVal;
       else if (WITHIN(recdat.addr, SDFILE_ADDR, SDFILE_ADDR + 10 * (FileNum + 1)))
         Checkkey = Filename;
@@ -1043,7 +1043,7 @@ void RTS::handleData() {
         #if HAS_MESH
           sendData(getLevelingActive() ? 3 : 2, AutoLevelIcon);
 
-          if (ExtUI::getMeshValid()) {
+          if (ExtUI::getLevelingIsValid()) {
             uint8_t abl_probe_index = 0;
             for (uint8_t outer = 0; outer < GRID_MAX_POINTS_Y; outer++)
               for (uint8_t inner = 0; inner < GRID_MAX_POINTS_X; inner++) {

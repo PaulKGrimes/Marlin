@@ -54,8 +54,6 @@ namespace Language_de {
   LSTR MSG_LCD_SOFT_ENDSTOPS              = _UxGT("Software-Endstopp");
   LSTR MSG_MAIN_MENU                      = _UxGT("Hauptmenü");
   LSTR MSG_ADVANCED_SETTINGS              = _UxGT("Erw. Einstellungen");
-  LSTR MSG_TOOLBAR_SETUP                  = _UxGT("Toolbar Einstellung");
-  LSTR MSG_OPTION_DISABLED                = _UxGT("Option Deaktiviert");
   LSTR MSG_CONFIGURATION                  = _UxGT("Konfiguration");
   LSTR MSG_RUN_AUTO_FILES                 = _UxGT("Autostart");
   LSTR MSG_DISABLE_STEPPERS               = _UxGT("Motoren deaktivieren"); // M84 :: Max length 19 characters
@@ -70,12 +68,12 @@ namespace Language_de {
   LSTR MSG_FILAMENT_SET                   = _UxGT("Fila. Einstellungen");
   LSTR MSG_FILAMENT_MAN                   = _UxGT("Filament Management");
   LSTR MSG_MANUAL_LEVELING                = _UxGT("Manuell Nivellierung");
-  LSTR MSG_LEVBED_FL                      = _UxGT("Vorne Links");
-  LSTR MSG_LEVBED_FR                      = _UxGT("Vorne Rechts");
-  LSTR MSG_LEVBED_C                       = _UxGT("Mitte");
-  LSTR MSG_LEVBED_BL                      = _UxGT("Hinten Links");
-  LSTR MSG_LEVBED_BR                      = _UxGT("Hinten Rechts");
-  LSTR MSG_MANUAL_MESH                    = _UxGT("manuelles Netz");
+  LSTR MSG_TRAM_FL                        = _UxGT("Vorne Links");
+  LSTR MSG_TRAM_FR                        = _UxGT("Vorne Rechts");
+  LSTR MSG_TRAM_C                         = _UxGT("Mitte");
+  LSTR MSG_TRAM_BL                        = _UxGT("Hinten Links");
+  LSTR MSG_TRAM_BR                        = _UxGT("Hinten Rechts");
+  LSTR MSG_MANUAL_MESH                    = _UxGT("Manuelles Netz");
   LSTR MSG_AUTO_MESH                      = _UxGT("Netz auto. erstellen");
   LSTR MSG_AUTO_Z_ALIGN                   = _UxGT("Z-Achsen ausgleichen");
   LSTR MSG_ITERATION                      = _UxGT("G34 Iteration: %i");
